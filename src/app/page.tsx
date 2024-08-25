@@ -68,7 +68,7 @@ export default function Home() {
           How to request the service
         </h3>
         {/* list footer */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {DATA_FOOTER.map((item) => (
             <div key={item.id}>
               <h6 className="text-base lg:text-20 lg:leading-[30px] font-semibold">

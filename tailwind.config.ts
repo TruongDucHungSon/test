@@ -8,6 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          lg: "2rem",
+        },
+      },
+      boxShadow: {
+        card: "0px 4px 20px -4px rgba(16, 24, 40, 0.08)",
+      },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+      },
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

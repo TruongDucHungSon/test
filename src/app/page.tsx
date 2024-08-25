@@ -91,7 +91,7 @@ export default function Home() {
                     {item.phone}
                   </p>
                 </div>
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-1 mt-1">
                   <Image
                     width={20}
                     height={20}
